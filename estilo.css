@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin:0 auto;
+    padding: 0px ;
+    font-family: 'Nunito';
+}
+
+.menu {
+    
+    color: rgb(0, 0, 0);
+}
+
+.conteudo {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titulo {
+    width: 40%;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(54, 54, 54);
+}
+
+
+.h2 {
+    border-bottom: 1px solid black;
+    width: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.checar {
+    margin-right: 1px;
+    height: 17px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.input {
+    color: black;
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.excluir {
+    margin: 0px;
+    text-align: end;
+    margin-right: 10px;
+    width: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.informacoes {
+    margin-top: 10px;
+}
+
+
+h1 {
+    border-bottom: 1px solid rgb(85, 85, 85);
+
+}
+
+h3 {
+    width: 40%;
+    text-align: none;
+    margin-bottom: 40px;
+}
+
+p {
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+label {
+    font-size: 19px;
+}
+
+.total1, .pendentes1, .completas1 {
+    width: 100%;
+    display: flex;
+}
+
+.total, .pendentes, .completas {
+    width: 40%;
+    display: flex;
+}
+
+
+.barra {
+    width: 40%;
+    height: 10%;
+    background-color: white;
+}
+
+.barravazia {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(99, 98, 98);
+    justify-content: end;
+}
+
+.barra {
+    background-color: rgb(26, 202, 202);
+    margin-left: 0px;
+    width: 0%;
+}
+
+.porcentagem {
+    margin: 0px;
+    text-align: end;
+    width: 100%;
+}
